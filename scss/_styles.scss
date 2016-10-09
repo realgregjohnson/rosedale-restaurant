@@ -1,0 +1,168 @@
+$background-blue: #5077BA;
+$light-blue: #B3DAE4;
+
+
+body{
+// background: url(../img/rosedale-restaurant.png) center bottom no-repeat;
+// background-size: 100%;
+background-color: $background-blue;
+font-family: 'Rockwell', sans-serif;
+font-weight: 400;
+text-align: center;
+// height: 100vh;
+}
+
+.padding{
+// padding:0 1.6rem;
+padding-left: 1.6rem;
+padding-right: 1.6rem;
+}
+
+h1,h2,h3,p{
+// cursor: default;
+}
+
+a{
+color: inherit;
+cursor: pointer;
+}
+
+h1{
+color: white;
+font-size: rem-calc(28);
+letter-spacing: .03rem;
+text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+@include breakpoint(medium){
+font-size: rem-calc(51);
+}
+}
+
+h2{
+font-size: rem-calc(25);
+color: $light-blue;
+}
+
+h3{
+text-transform: uppercase;
+font-weight: 700;
+font-size: rem-calc(14);
+letter-spacing: rem-calc(1);
+color: white;
+}
+
+p{
+font-size: rem-calc(19);
+color: $light-blue;
+}
+
+hr{
+border-bottom-color: #345894;
+margin: 20px 1.6rem;
+
+@include breakpoint(medium){
+margin: 20px auto;
+}
+}
+
+#rosedale-logo{
+// width: 244px;
+width: 84%;
+@extend .padding;
+padding-top: 1.6rem;
+padding-bottom: 1.6rem;
+
+@include breakpoint(medium){
+padding: 1.6rem 0;
+display: none;
+visibility: hidden;
+}
+}
+
+#chefs-names{
+@include grid-row;
+@extend .padding;
+
+@include breakpoint(medium){
+padding-top: 30px;
+}
+
+	div{
+	@include grid-column(6);
+	// @include grid-col-pos(1);
+	}
+}
+
+#hours{
+@extend .padding;
+
+	p{
+	@include breakpoint(medium){
+	font-size: rem-calc(30);
+	font-weight: 400;
+	}	
+	}
+
+	a{
+	margin-bottom: 1.8rem;
+	display: block;
+	}
+
+	.button{
+	@extend h3;
+	width: 84%;
+	padding: 14px 0 9px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	margin-bottom: rem-calc(10);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+	@include breakpoint(medium){
+	width: rem-calc(250);
+	}
+
+	&:hover{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+	}
+	}
+}
+
+#contact-information{
+text-transform: uppercase;
+	
+	h3{
+	font-size: rem-calc(19);
+	font-weight: 400;
+
+	@include breakpoint(medium){
+	font-size: rem-calc(25);
+	}
+	}
+	p{
+	font-size: rem-calc(14);
+	letter-spacing: rem-calc(1.4);
+	color: white;
+		span{
+		color: $light-blue;
+		}
+	}
+
+	p:nth-of-type(1){
+	color: $light-blue;
+	}
+}
+
+#rosedale-front{
+// position: absolute;
+// bottom: 0;
+z-index: -1;
+width: 100%;
+// visibility: hidden;
+
+@include breakpoint(medium){
+
+}
+}
+
+
+
