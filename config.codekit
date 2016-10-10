@@ -4120,13 +4120,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/dist\/img\/rosedale-restaurant.png": {
+	"\/dist\/img\/rosedale-night-sky.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 386927,
+		"inputAbbreviatedPath": "\/dist\/img\/rosedale-night-sky.jpg",
+		"outputAbbreviatedPath": "\/dist\/img\/rosedale-night-sky.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/img\/rosedale-restaurant-building.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/dist\/img\/rosedale-restaurant.png",
-		"outputAbbreviatedPath": "\/dist\/img\/rosedale-restaurant.png",
+		"initialSize": 2.03615e+06,
+		"inputAbbreviatedPath": "\/dist\/img\/rosedale-restaurant-building.png",
+		"outputAbbreviatedPath": "\/dist\/img\/rosedale-restaurant-building.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4393,7 +4404,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Greg Johnson",
+"lastSavedByUser": "Tom Varisco",
 "manualImportLinks": {
 	},
 "projectAttributes": {

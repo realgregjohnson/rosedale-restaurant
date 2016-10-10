@@ -1,10 +1,10 @@
-$background-blue: #5077BA;
+$background-blue: #1D3D68;
 $light-blue: #B3DAE4;
 
 
 body{
-// background: url(../img/rosedale-restaurant.png) center bottom no-repeat;
-// background-size: 100%;
+background: url(../img/rosedale-night-sky.jpg);
+background-size: cover;
 background-color: $background-blue;
 font-family: 'Rockwell', sans-serif;
 font-weight: 400;
@@ -14,8 +14,8 @@ text-align: center;
 
 .padding{
 // padding:0 1.6rem;
-padding-left: 1.6rem;
-padding-right: 1.6rem;
+padding-left: 1.2rem;
+padding-right: 1.2rem;
 }
 
 h1,h2,h3,p{
@@ -39,7 +39,7 @@ font-size: rem-calc(51);
 }
 
 h2{
-font-size: rem-calc(25);
+font-size: rem-calc(24);
 color: $light-blue;
 }
 
@@ -58,7 +58,7 @@ color: $light-blue;
 
 hr{
 border-bottom-color: #345894;
-margin: 20px 1.6rem;
+margin: 20px 1.2rem;
 
 @include breakpoint(medium){
 margin: 20px auto;
@@ -87,14 +87,29 @@ visibility: hidden;
 padding-top: 30px;
 }
 
+
+
+@media (min-height:901px){
+padding-top: 112px;
+}
+
 	div{
 	@include grid-column(6);
 	// @include grid-col-pos(1);
+	padding: 0;
 	}
 }
 
 #hours{
 @extend .padding;
+	h1{
+		br{
+		@include breakpoint(medium){
+		display: none;
+		visibility: hidden;
+		}
+		}
+	}
 
 	p{
 	@include breakpoint(medium){
@@ -135,7 +150,7 @@ text-transform: uppercase;
 	font-weight: 400;
 
 	@include breakpoint(medium){
-	font-size: rem-calc(25);
+	font-size: rem-calc(24);
 	}
 	}
 	p{
@@ -153,14 +168,16 @@ text-transform: uppercase;
 }
 
 #rosedale-front{
-// position: absolute;
-// bottom: 0;
+
 z-index: -1;
 width: 100%;
 // visibility: hidden;
+max-height: 50%;
+
 
 @include breakpoint(medium){
-
+position: absolute;
+bottom: 0;
 }
 }
 
