@@ -109,6 +109,15 @@ padding-top: 112px;
 		visibility: hidden;
 		}
 		}
+		span{
+		display: none;
+		visibility: hidden;
+
+		@include breakpoint(medium){
+		display: inline-block;
+		visibility: visible;
+		}		
+		}
 	}
 
 	p{

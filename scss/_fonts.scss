@@ -1,17 +1,34 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3294246, 2016-10-11T10:39:49-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: RockwellStd-Bold by Monotype 
+ * URL: http://www.myfonts.com/fonts/mti/rockwell/std-bold/
+ * 
+ * Webfont: RockwellStd by Monotype 
+ * URL: http://www.myfonts.com/fonts/mti/rockwell/std-roman/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3294246
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright 1990, 2002 Adobe Systems Incorporated. All Rights Reserved. Copyright 1989, 1990, 2002 The Monotype Corporation. All rights reserved.
+ * 
+ * © 2016 MyFonts Inc
+*/
 
-@font-face {
-  font-family: 'Rockwell';
-  src: url('fonts/RockwellStd.eot?#iefix') format('embedded-opentype'),  url('fonts/RockwellStd.otf')  format('opentype'),
-	     url('fonts/RockwellStd.woff') format('woff'), url('fonts/RockwellStd.ttf')  format('truetype'), url('fonts/RockwellStd.svg#fonts/RockwellStd') format('svg');
-  font-weight: 400;
-  font-style: normal;
-}
 
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/324426");
 
-@font-face {
-  font-family: 'Rockwell';
-  src: url('fonts/RockwellStd-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/RockwellStd-Bold.otf')  format('opentype'),
-	     url('fonts/RockwellStd-Bold.woff') format('woff'), url('fonts/RockwellStd-Bold.ttf')  format('truetype'), url('fonts/RockwellStd-Bold.svg#fonts/RockwellStd-Bold') format('svg');
-  font-weight: 700;
-  font-style: normal;
-}
+  
+@font-face {font-family: 'Rockwell';src: url('fonts/324426_0_0.eot');src: url('fonts/324426_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/324426_0_0.woff2') format('woff2'),url('fonts/324426_0_0.woff') format('woff'),url('fonts/324426_0_0.ttf') format('truetype'); font-weight: 700;}
+ 
+  
+@font-face {font-family: 'Rockwell';src: url('fonts/324426_1_0.eot');src: url('fonts/324426_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/324426_1_0.woff2') format('woff2'),url('fonts/324426_1_0.woff') format('woff'),url('fonts/324426_1_0.ttf') format('truetype'); font-weight: 400;}
+ 
