@@ -58,7 +58,9 @@ color: $light-blue;
 
 hr{
 border-bottom-color: #345894;
+// border-bottom-color: $light-blue;
 margin: 20px 1.2rem;
+//border-style: dotted;
 
 @include breakpoint(medium){
 margin: 20px auto;
