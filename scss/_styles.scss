@@ -10,6 +10,9 @@ font-family: 'Rockwell', sans-serif;
 font-weight: 400;
 text-align: center;
 // height: 100vh;
+@include breakpoint(medium){
+overflow: hidden;
+}
 }
 
 .padding{
@@ -19,7 +22,6 @@ padding-right: 1.2rem;
 }
 
 h1,h2,h3,p{
-// cursor: default;
 }
 
 a{
@@ -57,7 +59,7 @@ color: $light-blue;
 }
 
 hr{
-border-bottom-color: #345894;
+border-bottom-color: #406eb8;
 // border-bottom-color: $light-blue;
 margin: 20px 1.2rem;
 //border-style: dotted;
@@ -91,8 +93,8 @@ padding-top: 30px;
 
 
 
-@media (min-height:901px){
-padding-top: 112px;
+@media (min-height:981px) and (min-width:686px){
+padding-top: 94px;
 }
 
 	div{

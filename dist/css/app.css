@@ -3074,6 +3074,9 @@ body {
   font-family: 'Rockwell', sans-serif;
   font-weight: 400;
   text-align: center; }
+  @media screen and (min-width: 42.875em) {
+    body {
+      overflow: hidden; } }
 
 .padding, #rosedale-logo, #chefs-names, #hours {
   padding-left: 1.2rem;
@@ -3108,7 +3111,7 @@ p {
   color: #B3DAE4; }
 
 hr {
-  border-bottom-color: #345894;
+  border-bottom-color: #406eb8;
   margin: 20px 1.2rem; }
   @media screen and (min-width: 42.875em) {
     hr {
@@ -3136,9 +3139,9 @@ hr {
   @media screen and (min-width: 42.875em) {
     #chefs-names {
       padding-top: 30px; } }
-  @media (min-height: 901px) {
+  @media (min-height: 981px) and (min-width: 686px) {
     #chefs-names {
-      padding-top: 112px; } }
+      padding-top: 94px; } }
   #chefs-names div {
     width: 50%;
     float: left;
